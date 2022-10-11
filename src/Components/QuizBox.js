@@ -7,7 +7,7 @@ export default function QuizBox({ setSelectedOption, selectedOption }) {
   let { questionNumber } = useContext(QuizStateContext);
   const [quizLevel, setQuizLevel] = useState(0);
 
-const currentQue = decodeURIComponent(allQuestion[questionNumber])$ git config --global user.name "Mona Lisa"
+const currentQue = decodeURIComponent(allQuestion[questionNumber])
   const selectOption = (ansOption) => {
     setSelectedOption(ansOption);
   };
